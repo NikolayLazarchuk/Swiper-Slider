@@ -62,7 +62,7 @@ body {
     /*background-color: grey;*/
     cursor: pointer;
     box-shadow: 0px 0px 7px white;
-    bottom: 10vw;
+    bottom: 30vw;
   }
   
 
@@ -77,6 +77,8 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 padding: 5vw;
+background-image: url(images/Fire.jpg);
+background-size: cover;
 }
 
 .slider-section-heading {
@@ -84,9 +86,29 @@ margin-top: 0;
 margin-bottom: 0;
 font-size: 6vw;
 line-height: 11vw;
+text-shadow: 0px 0px 7px white;
 }
 .button-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.first {
+    background-image:url(images/Hyundai_Sonata.jpg);
+    background-size: cover;
+}
+.second {
+    background-image:url(images/Hyundai_Santa-Fe.jpg);
+    background-size: cover;
+
+}
+.third {
+    background-image:url(images/Hyundai_Elantra.jpg);
+    background-size: cover;
+
+}
+.fourth {
+    background-image:url(images/Hyundai_Tucson.jpg);
+    background-size: cover;
+
 }
