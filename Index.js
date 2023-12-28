@@ -4,8 +4,8 @@ var swiper = new Swiper(".mySwiper", {
     grabCursor: true, //курсор в виде руки
     loop: true, // безконечное листание
     navigation: { // кнопки влево-вправо
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+      nextEl: ".s-button-next",
+      prevEl: ".s-button-prev",
     },
     spaceBetween: 10, //gap
     pagination: { 

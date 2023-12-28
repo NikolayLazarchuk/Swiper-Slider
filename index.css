@@ -45,3 +45,23 @@ body {
 .fourth {
   background-color: #333
 }
+.s-button-prev, .s-button-next  {
+    width: 20px;
+    height: 20px;
+    position: relative;
+  
+    z-index: 2;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    cursor: pointer;
+  }
+  
+  .s-button-prev {
+    left: 10vw;
+    bottom: 10vw;
+  }
+  .s-button-next {
+    left: 90vw;
+    bottom: 10vw;
+  }
