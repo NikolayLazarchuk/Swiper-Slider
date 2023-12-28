@@ -13,3 +13,7 @@ var swiper = new Swiper(".mySwiper", {
       clickable: true, // позволяет кли кать по точкам/индикаторам пагинации
     },
   });
+  var paginationElement = document.querySelector(".swiper-pagination");
+
+// Добавляем стили через объект style
+paginationElement.style.bottom = "5vw";

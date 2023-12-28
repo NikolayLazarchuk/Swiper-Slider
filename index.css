@@ -112,3 +112,18 @@ text-shadow: 0px 0px 7px white;
     background-size: cover;
 
 }
+.swiper-pagination {
+    /* Убираем стандартные стили кругов */
+    .swiper-pagination-bullet {
+      width: 0.7vw; /* Ширина квадрата */
+      height: 0.7vw; /* Высота квадрата */
+      background-color: white; /* Цвет квадрата */
+      margin: 0 5px; /* Отступы между квадратами */
+      border-radius: 90; /* Убираем скругление углов */
+    }
+  
+    /* Если нужно изменить активную точку (если она отличается) */
+    .swiper-pagination-bullet-active {
+      background-color: blue; /* Цвет активного квадрата */
+    }
+  }
