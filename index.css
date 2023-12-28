@@ -26,6 +26,7 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .swiper-slide-div {
   display: flex;
   justify-content: center;
@@ -33,21 +34,26 @@ body {
   width: 90vw;
   height: 50vw;
 }
+
 .first {
   background-color: grey;
 }
+
 .second {
   background-color: green;
 }
+
 .third {
   background-color: blue;
 }
+
 .fourth {
   background-color: #6b5454
 }
-.s-button-prev, .s-button-next  {
-    width: 50px;
-    height: 50px;
+
+.s-button-prev, .s-button-next {
+    width: 3.5vw;
+    height: 3.5vw;
     position: relative;
   
     z-index: 2;
@@ -56,21 +62,15 @@ body {
     /*background-color: grey;*/
     cursor: pointer;
     box-shadow: 0px 0px 7px white;
+    bottom: 10vw;
   }
   
-  .s-button-prev {
-    left: 10vw;
-    bottom: 10vw;
+
+.arrow-image {
+    width: 3.5vw;
+    height: 3.5vw;
   }
-  .s-button-next {
-    left: 80vw;
-    bottom: 10vw;
-    
-  }
-  .arrow-image {
-    width: 50px;
-    height: 50px;
-  }
+
 .slider-section {
 display: flex;
 flex-direction: column;
@@ -78,9 +78,15 @@ justify-content: center;
 align-items: center;
 padding: 5vw;
 }
+
 .slider-section-heading {
 margin-top: 0;
 margin-bottom: 0;
 font-size: 6vw;
 line-height: 11vw;
+}
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
