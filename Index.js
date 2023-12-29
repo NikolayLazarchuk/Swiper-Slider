@@ -3,6 +3,7 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true, //свойство для центрирования слайдов
     grabCursor: true, //курсор в виде руки
     loop: true, // безконечное листание
+    speed: 800,
     navigation: { // кнопки влево-вправо
       nextEl: ".s-button-next",
       prevEl: ".s-button-prev",
@@ -16,4 +17,4 @@ var swiper = new Swiper(".mySwiper", {
   var paginationElement = document.querySelector(".swiper-pagination");
 
 // Добавляем стили через объект style
-paginationElement.style.bottom = "5vw";
+paginationElement.style.bottom = "2vw";
